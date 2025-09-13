@@ -1,0 +1,61 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# =========================
+# Machine Learning / Data
+# =========================
+# Model weights
+*.h5
+*.hdf5
+*.pb
+*.pkl
+*.joblib
+
+# Dataset / training cache
+dataset/
+train&test/
+uploads/
+
+# TensorBoard logs
+logs/
+*.tfevents.*
+
+# =========================
+# IDE / Editors
+# =========================
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# =========================
+# System / OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Project specific
+# =========================
+# Ignore saved models folder if generated
+models/
